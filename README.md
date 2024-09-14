@@ -1,24 +1,55 @@
 # Drug Review Sentiment Analysis and Prediction
 
-## Overview
-This project aims to analyze and predict sentiment in drug reviews. Using a dataset of drug reviews, the notebook explores various data preprocessing steps, sentiment analysis techniques, and machine learning models to predict the sentiment of new drug reviews.
+A project to analyze and predict the sentiment of drug reviews using natural language processing (NLP) and machine learning models.
 
-## Contents
-- **Data Loading and Exploration**: Importing the dataset and performing initial exploratory data analysis (EDA) to understand the data distribution and characteristics.
-- **Data Preprocessing**: Cleaning the text data, handling missing values, and preparing the data for modeling.
-- **Sentiment Analysis**: Using natural language processing (NLP) techniques to analyze the sentiment of drug reviews.
-- **Model Building**: Training and evaluating different machine learning models to predict the sentiment of drug reviews.
-- **Model Evaluation**: Assessing the performance of the models using various evaluation metrics.
+## 📄 Project Summary
+This project leverages a dataset containing drug reviews to build sentiment analysis models. The main goal is to preprocess the text data and apply machine learning algorithms to predict whether the sentiment of a new drug review is positive or negative.
 
-## Requirements
-To run the notebook, you will need the following libraries:
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- sklearn
-- nltk
+## 🗂️ Key Sections
 
-You can install the required libraries using pip:
+### 1. **Data Loading & Exploration**
+- **Objective**: Load the dataset and conduct exploratory data analysis (EDA).
+- **Steps**:
+  - Data structure overview
+  - Visualize key statistics and sentiment distribution
+
+### 2. **Data Preprocessing**
+- **Objective**: Prepare the data for model building.
+- **Techniques**:
+  - Text cleaning (removing stop words, punctuation, etc.)
+  - Handling missing values and label encoding
+
+### 3. **Sentiment Analysis**
+- **Objective**: Use NLP techniques to derive insights from the reviews.
+- **Steps**:
+  - Tokenization and vectorization (TF-IDF)
+  - Sentiment labeling based on review content
+
+### 4. **Model Building**
+- **Objective**: Build machine learning models to predict review sentiment.
+- **Models**:
+  - Logistic Regression
+  - Support Vector Machines (SVM)
+  - Random Forest
+
+### 5. **Model Evaluation**
+- **Objective**: Assess the performance of each model.
+- **Metrics**:
+  - Accuracy, Precision, Recall, F1-Score
+  - Confusion matrix and ROC curve
+
+## 💻 Requirements
+
+Ensure the following libraries are installed before running the code:
+
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+- `scikit-learn`
+- `nltk`
+
+### Installation:
+Install the required packages using pip:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn nltk
